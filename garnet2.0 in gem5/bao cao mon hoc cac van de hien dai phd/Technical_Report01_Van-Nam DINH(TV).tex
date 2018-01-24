@@ -87,11 +87,22 @@ Ngoài ra, Gem5 còn được biết đến như là một hệ thống máy tí
 \end{enumerate}
 
 Gem5 là nền tảng mã nguồn mở được viết chủ yếu dựa trên ngôn ngữ C++ và python. Hầu hết các thành phần đều được cấp phép bởi BSD licenses. Nó có thể mô phỏng một hệ thống hoàn chỉnh với đầy đủ các thiết bị, ngoại vi, hệ điều hành trong chế độ FS (full system mode). Hoặc nó cũng có thể được sử dụng chế độ mô phỏng hệ thống (SE = syscal emulation mode).
+
+\textbf{Các bước thực hiện cài đặt Gem5 trên hệ điều hành Ubuntu:}
+\begin{enumerate}
+	\item Cài đặt git với câu lệnh: sudo apt-get install git
+	\item Cài đặt gcc 4.8+: sudo apt-get install build-essential
+	\item Gem5 dùng Scons để xây dựng môi trường, để cài đặt Scons ta có thể tham khảo lệnh sau: sudo apt-get install scons
+	\item Cài đặt Python 2.7+ với lệnh tham khảo: sudo apt-get install python-dev.
+	\item Cài đặt SWIG 2.0.4+ với lệnh tham khảo: sudo apt-get install swig
+	\item Cài đặt pr 2.1+ với lệnh tham khảo: sudo apt-get install libprotobuf-dev python-protobuf protobuf-compiler libgoogle-perftools-dev
+	\item Cập nhật code mới nhất của gem5 với lệnh: git clone https://gem5.googlesource.com/public/gem5 (chú ý: có thể tải bằng cách clone trực tiếp từ github.com với link tham khảo với từ khóa gem5+github từ google.com và truy cập https://github.com/gem5/gem5
+\end{enumerate}
 \subsection{Garnet2.0}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Các kịch bản mô phỏng}
+\section{Kịch bản mô phỏng}
 
 Mỗi một kịch bản mô phỏng được thực hiện bằng cách thay đổi kết hợp giữa tốc độ tải tin (tải gói tin) vào trong mạng và thay đổi các benchmark khác nhau. 
 
@@ -108,7 +119,7 @@ Cụ thể việc thay đổi các giá trị tốc độ tải tin được th�
 	\hline
 \end{tabular} 
 \end{center}
-
+\subsection{Kết quả mô phỏng thực nghiệm}
 \subsection{Thảo luận và kết luận}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
