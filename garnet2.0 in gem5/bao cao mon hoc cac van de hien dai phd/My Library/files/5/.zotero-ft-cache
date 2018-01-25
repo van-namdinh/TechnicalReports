@@ -1,0 +1,228 @@
+
+Loading [MathJax]/extensions/TeX/AMScd.js
+
+Skip to Main Content
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE-SA
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Create Account
+    Personal Sign In
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Password?
+
+Institutional Sign In
+
+    Browse
+        Books
+        Conferences
+        Courses
+        Journals & Magazines
+        Standards
+        Topics
+            Aerospace
+            Bioengineering
+            Communication, Networking & Broadcasting
+            Components, Circuits, Devices & Systems
+            Computing & Processing
+            Engineered Materials, Dielectrics & Plasmas
+            Engineering Profession
+            Fields, Waves & Electromagnetics
+            General Topics for Engineers
+            Geoscience
+            Nuclear Engineering
+            Photonics & Electro-Optics
+            Power, Energy, & Industry Applications
+            Robotics & Control Systems
+            Signal Processing & Analysis
+            Transportation
+    My Settings
+        Content Alerts
+        Search Alerts
+        MyXplore App
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        Feedback
+        Technical Support
+        Resources and Help
+    Subscribe
+
+First Name / Given Name
+Family Name / Last Name / Surname
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Publication Title
+Volume
+Issue
+Start Page
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+Advertisement
+Browse Conferences > Embedded Software and Systems...
+   Back to Results   
+A Fault Tolerance NoC Topology and Adaptive Routing Algorithm
+Sign In or Purchase
+to View Full Text
+58
+Full
+Text Views
+Related Articles
+FTS: a high-performance CORBA fault-tolerance service
+On aspect-orientation in distributed real-time dependable systems
+View All
+5
+Author(s)
+Pengfei Yang ; Quan Wang ; Wei Li ; Zhibin Yu ; Hongwei Ye
+View All Authors
+
+    Abstract
+    Authors
+    Figures
+    References
+    Citations
+    Keywords
+    Metrics
+    Media
+
+Abstract:
+The congestion in any regions or the faults in routing nodes, communication links and processing elements(PEs) will affect the NoC performance seriously in the multiprocessor system-on-chip (MPSoC) based on network on chip (NoC). In this paper, the NoC topology is designed which the fault tolerance function is enabled. Its dual-port network interface (NI) makes the key PE have two links with network at least, which can ensure high reliability of the system. The adaptive fault tolerant routing algorithm is also designed that could sense congestion on the network, and the routing nodes can well sense the congestion regions or error nodes on the network to work around the issues effectively. Experiment results demonstrate that the design proposed in this paper can ensure normal network communication and good system performance even if the congestion in routing nodes, communication links, processing elements, or any regions occurs.
+Published in: Embedded Software and Systems (ICESS), 2016 13th International Conference on
+Date of Conference: 13-14 Aug. 2016
+Date Added to IEEE Xplore : 19 October 2017
+ISBN Information:
+Electronic ISBN: 978-1-5090-3727-8
+USB ISBN: 978-1-5090-3726-1
+Print on Demand(PoD) ISBN: 978-1-5090-3728-5
+INSPEC Accession Number: 17283898
+DOI: 10.1109/ICESS.2016.20
+Publisher: IEEE
+Conference Location: Chengdu, China
+Advertisement
+Contents
+
+    I. Introduction
+    II. Related Work
+    III. Fault Tolerance Topology Design
+    IV. Fault Tolerant Routing Desgin
+    V. Experiments and Comparison
+    VI. Conclusion
+
+    Download PDF
+    Download Citation
+    View References
+    Email
+    Print
+    Request Permissions Request Permissions
+    Export to Collabratec Export to Collabratec
+    Alerts
+
+I. Introduction
+
+As CMOS technology scales down into the atomic domain, the deviation and vulnerability to aging of large-scale integrated circuit chips become more obvious, and the system fault rate increases greatly [1] [2]. The faults, transient or permanent [3] [4], will affect the system performance and challenge the system reliability. In view of this, the large-scale digital integrated circuit must have capable of self-repair(SR) both at circuit level and system level to improve the rate of finished chips, lower costs, and construct a stable, reliable, and performance-predictable system.
+Read document
+Keywords
+
+    IEEE Keywords
+    Routing , Topology , Nickel , Fault tolerance , Fault tolerant systems , Network topology
+    INSPEC: Controlled Indexing
+    circuit reliability , fault tolerance , multiprocessor interconnection networks , network interfaces , network routing , network-on-chip
+    INSPEC: Non-Controlled Indexing
+    adaptive routing algorithm , routing nodes , communication links , NoC performance , fault tolerance function , dual-port network interface , adaptive fault tolerant routing algorithm , congestion regions , error nodes , normal network communication , fault tolerance NoC topology , system reliability , MPSoC , multiprocessor system-on-chip , processing elements
+    Author Keywords
+    NoC , fault tolerance , adaptive routing algorithm
+
+Authors
+Pengfei Yang
+Sch. of Comput., Xidian Univ., Xi'an, China
+Quan Wang
+Sch. of Comput., Xidian Univ., Xi'an, China
+Wei Li
+Sch. of Comput., Xidian Univ., Xi'an, China
+Zhibin Yu
+Sch. of Comput., Xidian Univ., Xi'an, China
+Hongwei Ye
+Sch. of Comput., Xidian Univ., Xi'an, China
+Related Articles
+FTS: a high-performance CORBA fault-tolerance service
+R. Friedman; E. Hadad
+On aspect-orientation in distributed real-time dependable systems
+A. Gal
+Asynchronous leasing
+R. Boichat; P. Dutta; R. Guerraoui
+Scalable group membership service for mobile Internet
+Bumho Kim; Dongman Lee; Dukyun Nam
+Distributed object-oriented real-time simulation of the multicast protocol RFRM
+Y.S. Hong
+Handling FT-CORBA compliant interoperable object group references
+R. Baldoni; C. Marchetti; R. Panella; L. Verde
+An extended object composition model for distributed multimedia services
+Doo-Hyun Kim; Kyung-Hee Lee
+Programming middle boxes with group event notification protocol
+M. Smirnov
+On the performance of STAR: an efficient delay-bound, low-cost multicast algorithm
+Shu Li; R. Melhem; T.F. Znati
+Traffic monitoring techniques for measurement based flow acceptance control
+A. Maqousi; S. Tater; F. Ball
+
+    Full Text
+    Abstract
+    Authors
+    Figures
+    References
+    Citations
+    Keywords
+    Back to Top
+
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.

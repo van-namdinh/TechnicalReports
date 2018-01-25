@@ -1,0 +1,215 @@
+
+@inproceedings{noauthor_notitle_nodate
+}
+
+@inproceedings{yang_fault_2016,
+	title = {A {Fault} {Tolerance} {NoC} {Topology} and {Adaptive} {Routing} {Algorithm}},
+	doi = {10.1109/ICESS.2016.20},
+	abstract = {The congestion in any regions or the faults in routing nodes, communication links and processing elements(PEs) will affect the NoC performance seriously in the multiprocessor system-on-chip (MPSoC) based on network on chip (NoC). In this paper, the NoC topology is designed which the fault tolerance function is enabled. Its dual-port network interface (NI) makes the key PE have two links with network at least, which can ensure high reliability of the system. The adaptive fault tolerant routing algorithm is also designed that could sense congestion on the network, and the routing nodes can well sense the congestion regions or error nodes on the network to work around the issues effectively. Experiment results demonstrate that the design proposed in this paper can ensure normal network communication and good system performance even if the congestion in routing nodes, communication links, processing elements, or any regions occurs.},
+	booktitle = {2016 13th {International} {Conference} on {Embedded} {Software} and {Systems} ({ICESS})},
+	author = {Yang, P. and Wang, Q. and Li, W. and Yu, Z. and Ye, H.},
+	month = aug,
+	year = {2016},
+	keywords = {adaptive fault tolerant routing algorithm, adaptive routing algorithm, circuit reliability, communication links, congestion regions, dual-port network interface, error nodes, fault tolerance, Fault tolerance, fault tolerance function, fault tolerance NoC topology, Fault tolerant systems, MPSoC, multiprocessor interconnection networks, multiprocessor system-on-chip, network interfaces, network routing, Network topology, network-on-chip, Nickel, NoC, NoC performance, normal network communication, processing elements, Routing, routing nodes, system reliability, Topology},
+	pages = {42--47},
+	file = {A Fault Tolerance NoC Topology and Adaptive Routing Algorithm.pdf:files/25/A Fault Tolerance NoC Topology and Adaptive Routing Algorithm.pdf:application/pdf;IEEE Xplore Abstract Record:files/5/8074439.html:text/html}
+}
+
+@inproceedings{wang_fault-tolerant_2013,
+	title = {A {Fault}-{Tolerant} {Routing} {Algorithm} for {NoC} {Using} {Farthest} {Reachable} {Routers}},
+	doi = {10.1109/DASC.2013.54},
+	abstract = {As technology scaling, reliability has became one of the key challenges of Network-on-Chip (NoC). Many fault-tolerant routing algorithms for NoC are developed to overcome fault components and provide reliable transmission. But proposed routing algorithms do not pay enough attention to find the shortest paths, which increases latency and power consumption. In this paper, a fault-tolerant routing algorithm using new component states diffusion method based on Farthest Reachable Router (FRR) is proposed. This algorithm can reduce latency by finding the shortest paths between source and destination routers. Experiment results verify that FRR routing algorithm can tolerate 79\% fault patterns within 3 × 3 and reduce latency by 16-44\% compared with FON.},
+	booktitle = {2013 {IEEE} 11th {International} {Conference} on {Dependable}, {Autonomic} and {Secure} {Computing}},
+	author = {Wang, J. and Wang, X. and Huang, L. and Mak, T. and Li, G.},
+	month = dec,
+	year = {2013},
+	keywords = {fault tolerance, Fault tolerant systems, network routing, network-on-chip, NoC, Routing, component states diffusion, destination router, farthest reachable router, farthest reachable routers, fault components, fault patterns, fault tolerant routing algorithms, fault-tolerant routing algorithm, FRR, integrated circuit reliability, low-power electronics, Partitioning algorithms, Ports (Computers), power consumption, Redundancy, reliability, source router, technology scaling},
+	pages = {153--158},
+	file = {IEEE Xplore Abstract Record:files/7/6844354.html:text/html;wang2013 - A Fault-tolerant Routing Algorithm for NoC Using Farthest Reachable Routers.pdf:files/8/wang2013 - A Fault-tolerant Routing Algorithm for NoC Using Farthest Reachable Routers.pdf:application/pdf}
+}
+
+@book{von_der_fakultat_informatik_self-diagnosis_nodate,
+	title = {Self-{Diagnosis} in {Network}-on-{Chips}},
+	author = {Von der Fakultät Informatik},
+	file = {Ref-book-Self-Diagnosis in Network-on-Chips.pdf:files/17/Ref-book-Self-Diagnosis in Network-on-Chips.pdf:application/pdf}
+}
+
+@article{dalirsani_self-diagnosis_2015,
+	title = {Self-diagnosis in {Network}-on-{Chips}},
+	copyright = {info:eu-repo/semantics/openAccess},
+	url = {http://elib.uni-stuttgart.de/handle/11682/3602},
+	doi = {http://dx.doi.org/10.18419/opus-3585},
+	abstract = {Network-on-Chips (NoCs) constitute a message-passing infrastructure and can fulfil communication requirements of the today’s System-on-Chips (SoCs), which integrate numerous semiconductor Intellectual Property (IP) blocks into a single die. As the NoC is responsible for data transport among IPs, its reliability is very important regarding the reliability of the entire system. In deep nanoscale technologies, transient and permanent failures of transistors and wires are caused by variety of effects. Such failures may occur in the NoC as well, disrupting its normal operation.
+
+An NoC comprises a large number of switches that form a structure spanning across the chip. Inherent redundancy of the NoC provides multiple paths for communication among IPs. Graceful degradation is the property of tolerating a component’s failure in a system at the cost of limited functionality or performance. In NoCs, when a switch in the path is faulty, alternative paths can be used to connect IPs, keeping the SoC functional. To this purpose, a fault detection mechanism is needed to identify the faulty switch and a fault tolerant routing should bypass it. As each NoC switch consists of a number of ports and multiple routing paths, graceful degradation can be considered even in a rather granular way. The fault may destroy some routing paths inside the switch, leaving the rest non-faulty. Thus, instead of disabling the faulty switch completely, its fault-free parts can be used for message passing. In this way, the chance of disconnecting the IP cores is reduced and the probability of having disjoint networks decreases.
+
+This study pursues efficient self-test and diagnosis approaches for both manufacturing and in-field testing aiming at graceful degradation of defective NoCs. The approaches here identify the location of defective components in the network rather than providing only a go/no-go test response. Conventionally, structural test approaches like scan-design have been employed for testing the NoC products. Structural testing targets faults of a predefined structural fault model like stuck-at faults. In contrast, functional testing targets certain functionalities of a system for example the instructions of a microprocessor. In NoCs, functional tests target NoC characteristics such as routing functions and undistorted data transport. Functional tests get the highest gain of the regular NoC structure. They reduce the test costs and prevent overtesting. However, unlike structural tests, functional tests do not explicitly target structural faults and the quality of the test approach cannot be measured. We bridge this gap by proposing a self-test approach that combines the advantages of structural and functional test methodologies and hence is suitable for both manufacturing and in-field testing. Here, the software running on the IP cores attached to the NoC is responsible for test. Similar to functional tests, the test patterns here deal only with the functional inputs and outputs of switches. For pattern generation, a model is introduced that brings the information about structural faults to the level of functional outputs of the switch. Thanks to this unique feature of the model, a high structural fault coverage is achieved as revealed by the results.
+
+To make NoCs more robust against various defect mechanisms during the lifetime, concurrent error detection is necessary. Toward this, this dissertation contributes an area efficient synthesis technique of NoC switches to detect any error resulting from single combinational and transition fault in the switch and its links during the normal operation. This technique incorporates data encoding and the standard concurrent error detection using multiple parity trees. Results reveal that the proposed approach imposes less area overhead as compared to traditional techniques for concurrent error detection.
+
+To enable fine-grained graceful degradation, intact functions of defective switches must be identified. Thanks to the fault tolerant techniques, fault-free parts of switches can be still employed in the NoC. However, reasoning about the fault-free functions with respect to the exact cause of a malfunction is missing in the literature. This dissertation contributes a novel fine-grained switch diagnosis technique that works based on the structural logic diagnosis. After determining the location and the nature of the defect in the faulty switch, all routing paths are checked and the soundness of the intact switch functions is proved. Experimental results show improvements in both performance and reliability of degraded NoCs by incorporating the fine-grained diagnosis of NoC switches.},
+	language = {en},
+	urldate = {2018-01-24},
+	author = {Dalirsani, Atefe},
+	year = {2015},
+	file = {Full Text PDF:files/19/Dalirsani - 2015 - Self-diagnosis in Network-on-Chips.pdf:application/pdf;Ref-book-Self-Diagnosis in Network-on-Chips.pdf:files/21/Ref-book-Self-Diagnosis in Network-on-Chips.pdf:application/pdf;Snapshot:files/20/3602.html:text/html}
+}
+
+@inproceedings{azad_online_2017,
+	title = {From online fault detection to fault management in {Network}-on-{Chips}: {A} ground-up approach},
+	shorttitle = {From online fault detection to fault management in {Network}-on-{Chips}},
+	doi = {10.1109/DDECS.2017.7934565},
+	abstract = {Due to the ongoing miniaturization of silicon technology beyond the sub-micron domain and the trend of integrating ever more components on a single chip, the Network-on-Chip (NoC) paradigm has emerged to address the scalability and performance shortcomings of bus-based interconnects. As the feature size shrinks, the system gets much more susceptible to faults caused by wear-out and environmental effects. Thus, in order to increase the reliability, creates the need for having mechanisms embedded into such a system that could detect and manage the faults in run-time. In this paper, a ground-up approach from fault detection to fault management for such a NoC-based system on chip is proposed that utilizes both local fault management for fast reaction to faults and a global fault management mechanisms for triggering a large-scale reconfiguration of the NoC. Also, detailed description of strategies for fault detection, localization, classification and propagation to a global fault management unit are provided and methods for local fault management are elaborated.},
+	booktitle = {2017 {IEEE} 20th {International} {Symposium} on {Design} and {Diagnostics} of {Electronic} {Circuits} {Systems} ({DDECS})},
+	author = {Azad, S. P. and Niazmand, B. and Janson, K. and George, N. and Oyeniran, A. S. and Putkaradze, T. and Kaur, A. and Raik, J. and Jervan, G. and Ubar, R. and Hollstein, T.},
+	month = apr,
+	year = {2017},
+	keywords = {network-on-chip, Routing, integrated circuit reliability, Ports (Computers), bus-based interconnects, Checkers, Circuit faults, elemental semiconductors, environmental effects, fault classification, Fault Classification, Fault detection, Fault Detection, fault diagnosis, fault localization, Fault Localization, Fault management, fault propagation, global fault management mechanisms, ground-up approach, large-scale reconfiguration, local fault management, Monitoring, Network-on-Chip, network-on-chips, online fault detection, Radiation detectors, Reconfiguration, Si, silicon, silicon technology, sub-micron domain, Transient analysis, wear-out effects},
+	pages = {48--53},
+	file = {azad2017-From online fault detection to fault management in Network-on-Chips A ground-up approach.pdf:files/24/azad2017-From online fault detection to fault management in Network-on-Chips A ground-up approach.pdf:application/pdf;IEEE Xplore Abstract Record:files/23/7934565.html:text/html}
+}
+
+@misc{noauthor_icta_nodate,
+	title = {{ICTA} 2016 : {International} {Conference} on {Advances} in {Information} and {Communication} {Technology}},
+	url = {http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53157},
+	urldate = {2018-01-24},
+	file = {Advances+in+Information+and+Communicatio.pdf:files/28/Advances+in+Information+and+Communicatio.pdf:application/pdf;ICTA 2016 \: International Conference on Advances in Information and Communication Technology:files/27/event.html:text/html}
+}
+
+@inproceedings{dinh_idpso_2017,
+	address = {Hanoi, Vietnam},
+	title = {An {IDPSO} {Algorithm}-based {Application} {Mapping} {Method} for {Network}-on-{Chips}},
+	url = {http://icdv.uet.vnu.edu.vn},
+	abstract = {Application mapping is one of the most challenging issues in designing Network-on-Chips, playing an important role in maximizing the performance of NoC based systems. This paper presents a novel method to map applications onto a targeted NoC architecture using Improved Discrete Particle Swarm Optimization (IDPSO) algorithm. The NOXIM platform has been used to evaluate the efficiency of the proposed method in terms of latency, throughput, and power energy. The obtained results show that the proposed method can help the designers to get better performance for NoC based systems. This information is very useful for designers to decide how they should do in the next steps of designing a real-time system.},
+	language = {en},
+	urldate = {2018-01-24},
+	author = {Dinh, Van Nam and Nguyen, Kiem Hung and Pham, Minh Trien and Tran, Xuan Tu},
+	month = oct,
+	year = {2017},
+	pages = {104--110},
+	file = {Full Text PDF:files/30/Dinh et al. - 2017 - An IDPSO Algorithm-based Application Mapping Metho.pdf:application/pdf;S46_paper_13.pdf:files/32/S46_paper_13.pdf:application/pdf;Snapshot:files/31/2744.html:text/html}
+}
+
+@inproceedings{das_robust_2017,
+	address = {3001 Leuven, Belgium, Belgium},
+	series = {{DATE} '17},
+	title = {Robust {TSV}-based 3D {NoC} {Design} to {Counteract} {Electromigration} and {Crosstalk} {Noise}},
+	url = {http://dl.acm.org/citation.cfm?id=3130379.3130701},
+	abstract = {A 3D network-on-chip (3D NoC) is an enabler for the design of high-performance and energy-efficient manycore chips. Most popular 3D NoCs utilize the Through-Silicon-Via (TSV)-based vertical links (VLs) as the communication pillars between the planar dies. However, the TSVs in a 3D NoC may fail due to both workload-induced stress and crosstalk capacitance. This failure negatively affects the overall achievable performance of the 3D NoC. In this work, we analyze the joint effects of workload-induced stress and crosstalk on the TSV mean-time-to-failure (MTTF) and hence the 3D NoC lifetime. We demonstrate that if we only consider the effects of electromigration on the TSVs due to workload-induced stress then the estimated MTTF and the subsequently lifetime of 3D NoC are too optimistic. Due to the combined effects of workload and crosstalk noise, the lifetime of 3D NoC reduces significantly. Subsequently, we demonstrate that a spare TSV allocation methodology considering the joint effects of workload and crosstalk noise enhances the lifetime of the 3D NoC by a factor of 4.6 compared to when only the workload is considered for a given spare budget of 5\%.},
+	urldate = {2018-01-24},
+	booktitle = {Proceedings of the {Conference} on {Design}, {Automation} \& {Test} in {Europe}},
+	publisher = {European Design and Automation Association},
+	author = {Das, Sourav and Doppa, Janardhan Rao and Pande, Partha Pratim and Chakrabarty, Krishnendu},
+	year = {2017},
+	keywords = {reliability, 3D NoC, crosstalk, electromigration, lifetime, manycore chip, MTTF, TSVs},
+	pages = {1366--1371},
+	file = {das2017-Robust TSV-based 3D NoC Design to Counteract  Electromigration and Crosstalk Noise  .pdf:files/36/das2017-Robust TSV-based 3D NoC Design to Counteract  Electromigration and Crosstalk Noise  .pdf:application/pdf}
+}
+
+@inproceedings{das_robust_2017-1,
+	title = {Robust {TSV}-based 3D {NoC} design to counteract electromigration and crosstalk noise},
+	doi = {10.23919/DATE.2017.7927205},
+	abstract = {A 3D network-on-chip (3D NoC) is an enabler for the design of high-performance and energy-efficient manycore chips. Most popular 3D NoCs utilize the Through-Silicon-Via (TSV)-based vertical links (VLs) as the communication pillars between the planar dies. However, the TSVs in a 3D NoC may fail due to both workload-induced stress and crosstalk capacitance. This failure negatively affects the overall achievable performance of the 3D NoC. In this work, we analyze the joint effects of workload-induced stress and crosstalk on the TSV mean-time-to-failure (MTTF) and hence the 3D NoC lifetime. We demonstrate that if we only consider the effects of electromigration on the TSVs due to workload-induced stress then the estimated MTTF and the subsequently lifetime of 3D NoC are too optimistic. Due to the combined effects of workload and crosstalk noise, the lifetime of 3D NoC reduces significantly. Subsequently, we demonstrate that a spare TSV allocation methodology considering the joint effects of workload and crosstalk noise enhances the lifetime of the 3D NoC by a factor of 4.6 compared to when only the workload is considered for a given spare budget of 5\%.},
+	booktitle = {Design, {Automation} {Test} in {Europe} {Conference} {Exhibition} ({DATE}), 2017},
+	author = {Das, S. and Doppa, J. R. and Pande, P. P. and Chakrabarty, K.},
+	month = mar,
+	year = {2017},
+	keywords = {network-on-chip, integrated circuit reliability, reliability, 3D NoC, crosstalk, electromigration, lifetime, manycore chip, MTTF, TSVs, 3D network-on-chip, 3D NoC lifetime, Crosstalk, crosstalk capacitance, crosstalk noise, Delays, energy conservation, high-performance energy-efficient manycore chips, integrated circuit design, multiprocessing systems, power aware computing, Reliability, Resource management, robust TSV-based 3D NoC design, Stress, Three-dimensional displays, three-dimensional integrated circuits, Through-silicon vias, through-silicon-via-based vertical links, TSV allocation, TSV mean-time-to-failure, workload-induced stress},
+	pages = {1366--1371},
+	file = {IEEE Xplore Abstract Record:files/35/7927205.html:text/html}
+}
+
+@article{wehbe_secure_2016,
+	title = {Secure and {Dependable} {NoC}-{Connected} {Systems} on an {FPGA} {Chip}},
+	volume = {65},
+	issn = {0018-9529},
+	doi = {10.1109/TR.2016.2606883},
+	abstract = {The growing reliance on intellectual properties exposes systems on chip (SoCs) to many security vulnerabilities and is raising more and more concerns. At the same time, with the quick increase in chip density and deep scaling of feature size, current billion-transistor chip designs introduce more challenges to manufacturing fault-free chips. In this paper, we propose an integrated run-time solution for both security and fault tolerance of field-programmable gate arrays (FPGA)-based SoCs through digital signatures, live monitoring, adaptive routing, and partial reconfiguration supported by an in-house-developed network on chip, X-Network. Our X-Network reduces the ratio of required routers versus processing elements with better performance, and more importantly, offers more flexibility than conventional networks to facilitate fault tolerance and security designs. A multiplexed Montgomery modular multiplication architecture is used to increase the speed of the Rivest-Shamir-Adleman algorithm. The design has been implemented and tested on a Xilinx Virtex-6 FPGA development board. Experimental results show that even if up to 20\% of the links in the network are faulty, our reconfigurable architecture and algorithm manage to route packets around such faults, and deliver them to their destinations in a relatively low latency. Unlike conventional fault-tolerant methods that usually require resource redundancy, our design does not incur significant area or speed degradation. The resource overhead for both security and fault-tolerant features is around 10\% more lookup tables.},
+	number = {4},
+	journal = {IEEE Transactions on Reliability},
+	author = {Wehbe, T. and Wang, X.},
+	month = dec,
+	year = {2016},
+	keywords = {fault tolerance, Fault tolerance, Fault tolerant systems, Routing, adaptive routing, billion-transistor chip designs, chip density, dependable NoC-connected systems, digital signatures, fault-free chip manufacturing, fault-tolerant methods, feature size deep scaling, field programmable gate arrays, Field programmable gate arrays, field-programmable gate arrays, field-programmable gate arrays (FPGA), Hardware, hardware security, intellectual properties, live monitoring, lookup tables, multiplexed Montgomery modular multiplication architecture, network on chip, network on chip (NoC), partial reconfiguration, resource redundancy, Rivest-Shamir-Adleman algorithm, secure NoC-connected systems, Security, security designs, security vulnerability, SoCs, systems on chip, Trojan horses, X-network, Xilinx Virtex-6 FPGA development board},
+	pages = {1852--1863},
+	file = {IEEE Xplore Abstract Record:files/38/7588104.html:text/html;wehbe2016-Secure and Dependable NoC-Connected Systems on an FPGA Chip.pdf:files/41/wehbe2016-Secure and Dependable NoC-Connected Systems on an FPGA Chip.pdf:application/pdf}
+}
+
+@article{wehbe_secure_2016-1,
+	title = {Secure and {Dependable} {NoC}-{Connected} {Systems} on an {FPGA} {Chip}},
+	volume = {65},
+	issn = {0018-9529},
+	doi = {10.1109/TR.2016.2606883},
+	abstract = {The growing reliance on intellectual properties exposes systems on chip (SoCs) to many security vulnerabilities and is raising more and more concerns. At the same time, with the quick increase in chip density and deep scaling of feature size, current billion-transistor chip designs introduce more challenges to manufacturing fault-free chips. In this paper, we propose an integrated run-time solution for both security and fault tolerance of field-programmable gate arrays (FPGA)-based SoCs through digital signatures, live monitoring, adaptive routing, and partial reconfiguration supported by an in-house-developed network on chip, X-Network. Our X-Network reduces the ratio of required routers versus processing elements with better performance, and more importantly, offers more flexibility than conventional networks to facilitate fault tolerance and security designs. A multiplexed Montgomery modular multiplication architecture is used to increase the speed of the Rivest-Shamir-Adleman algorithm. The design has been implemented and tested on a Xilinx Virtex-6 FPGA development board. Experimental results show that even if up to 20\% of the links in the network are faulty, our reconfigurable architecture and algorithm manage to route packets around such faults, and deliver them to their destinations in a relatively low latency. Unlike conventional fault-tolerant methods that usually require resource redundancy, our design does not incur significant area or speed degradation. The resource overhead for both security and fault-tolerant features is around 10\% more lookup tables.},
+	number = {4},
+	journal = {IEEE Transactions on Reliability},
+	author = {Wehbe, T. and Wang, X.},
+	month = dec,
+	year = {2016},
+	keywords = {fault tolerance, Fault tolerance, Fault tolerant systems, Routing, adaptive routing, billion-transistor chip designs, chip density, dependable NoC-connected systems, digital signatures, fault-free chip manufacturing, fault-tolerant methods, feature size deep scaling, field programmable gate arrays, Field programmable gate arrays, field-programmable gate arrays, field-programmable gate arrays (FPGA), Hardware, hardware security, intellectual properties, live monitoring, lookup tables, multiplexed Montgomery modular multiplication architecture, network on chip, network on chip (NoC), partial reconfiguration, resource redundancy, Rivest-Shamir-Adleman algorithm, secure NoC-connected systems, Security, security designs, security vulnerability, SoCs, systems on chip, Trojan horses, X-network, Xilinx Virtex-6 FPGA development board},
+	pages = {1852--1863},
+	file = {IEEE Xplore Abstract Record:files/40/7588104.html:text/html}
+}
+
+@article{choi_-chip_2017,
+	title = {On-{Chip} {Communication} {Network} for {Efficient} {Training} of {Deep} {Convolutional} {Networks} on {Heterogeneous} {Manycore} {Systems}},
+	volume = {PP},
+	issn = {0018-9340},
+	doi = {10.1109/TC.2017.2777863},
+	abstract = {Convolutional Neural Networks (CNNs) have shown a great deal of success in diverse application domains including computer vision, speech recognition, and natural language processing. However, as dataset size and depth of the neural network architectures continue to grow, it is imperative to design high-performance and energy-efficient computing hardware for training CNNs. In this paper, we consider the problem of designing specialized CPU-GPU based heterogeneous manycore systems for energy-efficient training of CNNs. It has already been shown that the typical on-chip communication infrastructures employed in conventional CPU-GPU based heterogeneous manycore platforms are unable to handle both CPU and GPU communication requirements efficiently. To address this issue, we first analyze the on-chip traffic patterns that arise from the computational processes associated with training two deep CNN architectures, namely, LeNet and CDBNet, to perform image classification. By leveraging this knowledge, we design a hybrid Network-on-Chip (NoC) architecture, which consists of both wireline and wireless links, to improve the performance of CPU-GPU based heterogeneous manycore platforms running the above-mentioned CNN training workloads. The proposed NoC achieves 1.8 reduction in network latency and improves the network throughput by a factor of 2.2 for training CNNs, when compared to a highly-optimized wireline mesh NoC.},
+	number = {99},
+	journal = {IEEE Transactions on Computers},
+	author = {Choi, W. and Duraisamy, K. and Kim, R. G. and Doppa, J. R. and Pande, P. P. and Marculescu, D. and Marculescu, R.},
+	year = {2017},
+	keywords = {Network-on-Chip, Computer architecture, Deep learning, Energy-efficient computing, Graphics processing units, Heterogeneous Architectures, Machine learning, Manycore systems, System-on-chip, Training, Wireless communication, Wireless sensor networks},
+	pages = {1--1},
+	file = {choi2017-On-Chip Communication Network for Efficient  Training of Deep Convolutional Networks on  Heterogeneous Manycore Systems.pdf:files/44/choi2017-On-Chip Communication Network for Efficient  Training of Deep Convolutional Networks on  Heterogeneous Manycore Systems.pdf:application/pdf;IEEE Xplore Abstract Record:files/43/8119941.html:text/html}
+}
+
+@article{cui_enhancement_2017,
+	title = {An {Enhancement} of {Crosstalk} {Avoidance} {Code} {Based} on {Fibonacci} {Numeral} {System} for {Through} {Silicon} {Vias}},
+	volume = {25},
+	issn = {1063-8210},
+	doi = {10.1109/TVLSI.2017.2651141},
+	abstract = {Through silicon vias (TSVs) play an important role as the vertical electrical connections in 3-D stacked integrated circuits. However, the closely clustered TSVs suffer from the crosstalk noise between the neighboring TSVs, and result in the extra delay and the deterioration of signal integrity. For a 3 × 3 TSV array, the severity of crosstalk noise in the center victim TSV is classified into 11 levels, which is defined as 0C to 10C from low noise to high noise, depending on the combinations of the digital patterns applied to the TSV array. An enhanced code based on the Fibonacci number system (FNS) to suppress the crosstalk noise below 6C level is proposed, in which both the redundancy of numbers and the nonuniqueness of Fibonacci-based binary codeword are utilized to search the proper codeword. Experimental results show that the proposed technique decreases about 22\% latency of TSVs comparing with the worst crosstalk cases. This technique is applicable in the large-scale TSV array for it has a quasi-linear hardware overhead, and its system overhead is less than that of the 3-D 4-LAT counterpart if the data width is greater than 18, and it has good usability for it consumes less power per TSV and achieves lower bit error rate at the interested frequency range comparing with that of the original FNS coding technique.},
+	number = {5},
+	journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+	author = {Cui, X. and Cui, X. and Ni, Y. and Miao, M. and Yufeng, J.},
+	month = may,
+	year = {2017},
+	keywords = {crosstalk, Crosstalk, crosstalk noise, three-dimensional integrated circuits, Through-silicon vias, 3D 4-LAT, 3D stacked integrated circuits, Arrays, binary codes, bit error rate, Capacitance, Couplings, crosstalk avoidance code (CAC), crosstalk avoidance code enhancement, Fibonacci number system (FNS), Fibonacci numeral system, Fibonacci sequences, Fibonacci-based binary codeword, FNS, quasilinear hardware overhead, redundant codeword, redundant number, signal integrity deterioration, Silicon, through silicon via (TSV), through silicon vias, TSV array, vertical electrical connections},
+	pages = {1601--1610},
+	file = {IEEE Xplore Abstract Record:files/46/7851080.html:text/html}
+}
+
+@article{cui_enhancement_2017-1,
+	title = {An {Enhancement} of {Crosstalk} {Avoidance} {Code} {Based} on {Fibonacci} {Numeral} {System} for {Through} {Silicon} {Vias}},
+	volume = {25},
+	issn = {1063-8210},
+	doi = {10.1109/TVLSI.2017.2651141},
+	abstract = {Through silicon vias (TSVs) play an important role as the vertical electrical connections in 3-D stacked integrated circuits. However, the closely clustered TSVs suffer from the crosstalk noise between the neighboring TSVs, and result in the extra delay and the deterioration of signal integrity. For a 3 × 3 TSV array, the severity of crosstalk noise in the center victim TSV is classified into 11 levels, which is defined as 0C to 10C from low noise to high noise, depending on the combinations of the digital patterns applied to the TSV array. An enhanced code based on the Fibonacci number system (FNS) to suppress the crosstalk noise below 6C level is proposed, in which both the redundancy of numbers and the nonuniqueness of Fibonacci-based binary codeword are utilized to search the proper codeword. Experimental results show that the proposed technique decreases about 22\% latency of TSVs comparing with the worst crosstalk cases. This technique is applicable in the large-scale TSV array for it has a quasi-linear hardware overhead, and its system overhead is less than that of the 3-D 4-LAT counterpart if the data width is greater than 18, and it has good usability for it consumes less power per TSV and achieves lower bit error rate at the interested frequency range comparing with that of the original FNS coding technique.},
+	number = {5},
+	journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+	author = {Cui, X. and Cui, X. and Ni, Y. and Miao, M. and Yufeng, J.},
+	month = may,
+	year = {2017},
+	keywords = {crosstalk, Crosstalk, crosstalk noise, three-dimensional integrated circuits, Through-silicon vias, 3D 4-LAT, 3D stacked integrated circuits, Arrays, binary codes, bit error rate, Capacitance, Couplings, crosstalk avoidance code (CAC), crosstalk avoidance code enhancement, Fibonacci number system (FNS), Fibonacci numeral system, Fibonacci sequences, Fibonacci-based binary codeword, FNS, quasilinear hardware overhead, redundant codeword, redundant number, signal integrity deterioration, Silicon, through silicon via (TSV), through silicon vias, TSV array, vertical electrical connections},
+	pages = {1601--1610},
+	file = {cui2017-An Enhancement of Crosstalk Avoidance Code Based on Fibonacci Numeral System for Through Silicon Vias.pdf:files/49/cui2017-An Enhancement of Crosstalk Avoidance Code Based on Fibonacci Numeral System for Through Silicon Vias.pdf:application/pdf;IEEE Xplore Abstract Record:files/48/7851080.html:text/html}
+}
+
+@article{motoyoshi_through-silicon_2009,
+	title = {Through-{Silicon} {Via} ({TSV})},
+	volume = {97},
+	issn = {0018-9219},
+	doi = {10.1109/JPROC.2008.2007462},
+	abstract = {Recently, the development of three-dimensional large-scale integration (3D-LSI) has been accelerated. Its stage has changed from the research level or limited production level to the investigation level with a view to mass production. The 3D-LSI using through-silicon via (TSV) has the simplest structure and is expected to realize a high-performance, high-functionality, and high-density LSI cube. This paper describes the current and future 3D-LSI technologies with TSV.},
+	number = {1},
+	journal = {Proceedings of the IEEE},
+	author = {Motoyoshi, M.},
+	month = jan,
+	year = {2009},
+	keywords = {elemental semiconductors, silicon, Through-silicon vias, Application software, chip scale packaging, Chip scale packaging, chip size package, Chip size package (CSP), CMOS image sensor fabrication, CMOS image sensors, Defense industry, Electronics industry, high-speed signal processing, high-speed techniques, image sensor, Image sensors, large scale integration, Large scale integration, LSI cube, mass production, Mass production, micro bump, Military computing, Sensor arrays, three-dimensional large-scale integration, three-dimensional large-scale integration (3D-LSI), through-silicon via (TSV), through-silicon via technique},
+	pages = {43--48},
+	file = {IEEE Xplore Abstract Record:files/51/4796275.html:text/html;motoyoshi2009-Through-Silicon Via (TSV).pdf:files/52/motoyoshi2009-Through-Silicon Via (TSV).pdf:application/pdf}
+}
